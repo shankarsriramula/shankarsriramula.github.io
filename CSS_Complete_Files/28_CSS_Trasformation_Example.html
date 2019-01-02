@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 Transformation</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+        }
+        section{
+            background-color: orangered;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 15px black ;
+        }
+        article{
+            background-color: mediumvioletred;
+            width: 250px;
+            display: inline-block;
+            padding: 10px;
+            margin: 10px;
+            background-radius: 10px;
+            box-shadow: 0 0 15px black;
+            transition: all 0.5s;
+        }
+        .trans-1:hover{
+            transform: translateY(10px);
+        }
+        .trans-2:hover{
+            transform: scale(1.3,1.3);
+        }
+        .trans-3:hover{
+            transform:scale(0.8,0.8) ;
+        }
+        .trans-4:hover{
+            transform: rotate(-20deg),scale(1.1,1.1);
+        }
+        .trans-5:hover{
+            transform: perspective(400px),rotatex(20deg);
+        }
+        .trans-6:hover{
+            transform: perspective(400px),rotateX(-20deg);
+        }
+        .trans-7:hover{
+            transform: perspective(400px),rotateY(20deg);
+        }
+        .trans-8:hover{
+            transform: perspective(400px),rotateY(-20deg);
+        }
+        .trans-9:hover{
+            transform: rotate3d(1,1,1,-45deg);
+        }
+        .trans-10:hover{
+            transform: perspective(400px),rotateX(20deg);
+        }
+    </style>
+</head>
+<body>
+<h3>Transformation 1</h3>
+<section>
+    <article class="trans-1">
+        <h3>Ui development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+    <article class="trans-1">
+        <h3>Java training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+    <article class="trans-1">
+        <h3>Angular Js training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+</section>
+<h3>Transformation 2</h3>
+<section>
+    <article class="trans-2">
+        <h3>Ui development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+    <article class="trans-2">
+        <h3>Java training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+    <article class="trans-2">
+        <h3>Angular Js training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+</section>
+<h3>Transformation 3</h3>
+<section>
+    <article class="trans-3">
+        <h3>Ui development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+    <article class="trans-3">
+        <h3>Java training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+    <article class="trans-3">
+        <h3>Angular Js training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+</section>
+<h3>Transformation 4</h3>
+<section>
+    <article class="trans-4">
+        <h3>Ui development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+    <article class="trans-4">
+        <h3>Java training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+    <article class="trans-4">
+        <h3>Angular Js training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+</section>
+<h3>Transformation 5</h3>
+<section>
+    <article class="trans-5">
+        <h3>Ui development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+    <article class="trans-5">
+        <h3>Java training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+    <article class="trans-5">
+        <h3>Angular Js training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+</section>
+<h3>Transformation 7</h3>
+<section>
+    <article class="trans-7">
+        <h3>Ui development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+    <article class="trans-7">
+        <h3>Java training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+    <article class="trans-7">
+        <h3>Angular Js training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+</section>
+<h3>Transformation 8</h3>
+<section>
+    <article class="trans-8">
+        <h3>Ui development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+    <article class="trans-8">
+        <h3>Java training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+    <article class="trans-8">
+        <h3>Angular Js training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+</section>
+<h3>Transformation 9</h3>
+<section>
+    <article class="trans-9">
+        <h3>Ui development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+    <article class="trans-9">
+        <h3>Java training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+    <article class="trans-9">
+        <h3>Angular Js training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, consequatur culpa dignissimos dolores enim et facilis fuga fugit impedit incidunt laudantium molestiae natus nemo nesciunt nobis pariatur, quaerat quidem ratione. Amet assumenda autem delectus ducimus est, ipsa nesciunt quis sequi!</p>
+    </article>
+</section>
+
+
+</body>
+</html>
