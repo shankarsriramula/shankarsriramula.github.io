@@ -1,0 +1,132 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Image Gallery 3d</title>
+        <style>
+        body{
+        font-family: "Comic Sans MS",sans-serif;
+        }
+        h1{
+        text-align: center;
+        }
+        .image{
+            border: 2px solid black;
+            width: 250px;
+            float: left;
+            display: inline-block;
+            text-align: center;
+            padding: 7px;
+            margin: 5px;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .image:hover{
+        box-shadow: 0 0 15px black;
+        }
+        .image img{
+        width: inherit;
+        height: 200px;
+        border-radius: 15px;
+        }
+        .desc{
+        padding: 10px;
+        }
+        <!-----------Zoom---------->
+        .zoom img{
+            width: 600px;
+            height: 400px;
+            margin: auto;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 0 15px black;
+        }
+        .zoom img {
+            width: inherit;
+            height: inherit;
+            transition: all 1s;
+        }
+        .zoom:hover img {
+            transform: scale(1.2, 1.2);
+        }
+        </style>
+    </head>
+    <body>
+
+     <!-- Image Gallery 3d-->
+    <h1>Image Gallery 3d</h1>
+     <figure class="zoom">
+    <div class="image">
+        <img src="img/image4.jpeg" width="600" height="400">
+        <div class="desc">Image 1</div>
+    </div>
+     </figure>
+     <figure class="zoom">
+    <div class="image">
+        <img src="img/image6.jpeg" width="600" height="400">
+        <div class="desc">Image 2</div>
+    </div>
+     </figure>
+         <figure class="zoom">
+    <div class="image">
+        <img src="img/image5.jpeg" width="600" height="400">
+        <div class="desc">Image 3</div>
+    </div>
+         </figure>
+     <figure class="zoom">
+    <div class="image">
+        <img src="img/image4.jpeg" width="600" height="400">
+        <div class="desc">Image 4</div>
+    </div>
+     </figure>
+     <figure class="zoom">
+    <div class="image">
+        <img src="img/image6.jpeg" width="600" height="400">
+        <div class="desc">Image 5</div>
+    </div>
+     </figure>
+     <figure class="zoom">
+    <div class="image">
+        <img src="img/image5.jpeg" width="600" height="400">
+        <div class="desc">Image 6</div>
+    </div>
+     </figure>
+     <figure class="zoom">
+    <div class="image">
+        <img src="img/image6.jpeg" width="600" height="400">
+        <div class="desc">Image 7</div>
+    </div>
+     </figure>
+     <figure class="zoom">
+    <div class="image">
+        <img src="img/image4.jpeg" width="600" height="400">
+        <div class="desc">Image 8</div>
+    </div>
+     </figure>
+    <figure class="zoom">
+    <div class="image">
+        <img src="img/image6.jpeg" width="600" height="400">
+        <div class="desc">Image 9</div>
+    </div>
+    </figure>
+     <figure class="zoom">
+    <div class="image">
+        <img src="img/image5.jpeg" width="600" height="400">
+        <div class="desc">Image 10</div>
+    </div>
+     </figure>
+     <figure class="zoom">
+    <div class="image">
+        <img src="img/image6.jpeg" width="600" height="400">
+        <div class="desc">Image 11</div>
+    </div>
+     </figure>
+     <figure class="zoom">
+    <div class="image">
+        <img src="img/image3.jpeg" width="600" height="400">
+        <div class="desc">Image 12</div>
+    </div>
+     </figure>
+
+    </body>
+    </html>
