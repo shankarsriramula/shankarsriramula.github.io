@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Field Set & Legend</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+            background-image: url("img/background2.jpg");
+        }
+        table{
+            width:100%;
+        }
+        fieldset{
+            background-color: rgba(0,0,0,0.5);
+            color: whitesmoke;
+            font-size: 18px;
+            margin:20px;
+            border: 2px mediumvioletred;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0 0 15px black;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <!-- PERSONAL INFORMATION -->
+    <fieldset>
+        <legend>PERSONAL INFORMATION</legend>
+        <table>
+            <tr>
+                <td>First Name</td>
+            <td>
+            <input type="text">
+            </td>
+                <td>Middle Name</td>
+            <td>
+            <input type="text">
+            </td>
+            <td>
+                <td>Last Name</td>
+            <td>
+            <input type="text">
+            </td>
+            </tr>
+            <tr>
+                <td>Mother's Name</td>
+            <td>
+            <input type="text">
+            </td>
+                <td>father's Name</td>
+            <td>
+            <input type="text">
+            </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <!-- EDUCATIONAL DETAILS -->
+    <fieldset>
+        <legend>EDUCATION DETAILS</legend>
+        <table>
+            <tr>
+                <td>SNO</td>
+                <td>Qualification</td>
+                <td>University</td>
+                <td>Year of Passing</td>
+                <td>Marks(%)</td>
+                <td>Top(%)</td>
+            </tr>
+            <tr>
+                <td>1</td>
+            <td>
+            <input type="text">
+            </td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <input type="month">
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+                <td>
+                    <input type="text" min="0" max="100">
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <input type="month">
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+                <td>
+                    <input type="text" min="0" max="100">
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <input type="month">
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+                <td>
+                    <input type="text" min="0" max="100">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <!-- ADDRESS DETAILS -->
+    <fieldset>
+        <legend>ADDRESS DETAILS</legend>
+        <table>
+            <tr>
+                <td>SNO</td>
+                <td>Present Address</td>
+                <td>Permenent Address</td>
+                <td>Year Of Birth</td>
+                <td>State</td>
+                <td>Pincode</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <input type="month">
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+                <td>
+                    <input type="text" min="0" max="100">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+
+</body>
+</html>

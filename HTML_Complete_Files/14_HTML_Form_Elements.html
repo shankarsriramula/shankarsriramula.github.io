@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin-bottom: 300px;
+        }
+        form{
+            background-color: lightgreen;
+            padding: 15px;
+            width: 400px;
+            boder-radius: 10PX;
+            box-shadow: 0 0 15px black;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Simple Login Form -->
+    <h2>Simple Login Form</h2>
+<form>
+    <label>UserName</label>
+    <input type="text">
+    <br>
+    <lable>Password</lable>
+    <input type="Password">
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+
+    <!-- Login form with Table -->
+    <h2>Login Form with Table</h2>
+    <form>
+    <table>
+        <tr>
+            <td>
+                <lable>User Name</lable>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable>Password</lable>
+            </td>
+            <td><input type="password">
+            </td>
+            </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Submit">
+            </td>
+        </tr>
+            <td>
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+    </table>
+    </form>
+
+    <!-- Select box with Options -->
+    <h2>Select Box with Options</h2>
+<form>
+    <lable>Select a Technology</lable>
+    <select>
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JSL</option>
+        <option>JQURY</option>
+        <option>AJAX</option>
+        <option>BOOTSRAPS</option>
+        <option>ANGULAR JS</option>
+        <option>Node Js</option>
+    </select>
+</form>
+
+<!-- Select box with optgroup -->
+<h2>Select box with optgroup</h2>
+<form>
+    <lable>Select a Technology</lable>
+    <select>
+        <optgroup label="languages">
+            <optin>JAVA</optin>
+            <optin>Core Java</optin>
+            <optin>Ui</optin>
+        </optgroup>
+        <optgroup label="Scripts">
+            <option>JS</option>
+            <option>Shell Scripts</option>
+        </optgroup>
+    </select>
+
+</form>
+
+    <!-- Textarea box -->
+    <h2>Textarea box</h2>
+<form>
+    <lable>Comments</lable>
+    <textarea rows="5" cols="30" maxlength="100"</textarea>
+    </form>
+
+    <!-- Datalist (HTML5) -->
+    <h2>Datalist (HTML5)</h2>
+<form>
+    <lable >Select a Technology</lable>
+    <input list="tech">
+    <datalist id="tech">
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JS</option>
+        <option>JQURY</option>
+        <option>AJAX</option>
+        <option>BOOTSTRAPS</option>
+        <option>ANGULAR JS</option>
+        <option>Node Js</option>
+    </datalist>
+</form>
+
+
+</body>
+</html>
