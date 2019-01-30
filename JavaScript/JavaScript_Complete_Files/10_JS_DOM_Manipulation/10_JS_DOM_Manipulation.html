@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS DOM Manipulation</title>
+    <link rel="stylesheet" href="10_styles.css">
+</head>
+<body>
+
+    <!-- Button click Event -->
+    <section>
+    <button type="button" onmouseenter="liked()">Likes</button>
+    <span>10</span>
+    </section>
+
+    <!-- Say Good Morning -->
+    <div>
+        <h2 id="msg"></h2>
+        <button type="button" onclick="displayMsg('Good Morning' , 'green')">Good Morning</button>
+        <button type="button" onclick="displayMsg('Good Afternoon' , 'red')">Good Afternoon</button>
+        <button type="button" onclick="displayMsg('Good Evening' , 'blue')">Good Evening</button>
+        <button type="button" onclick="displayMsg('Good Night' , 'black')">Good Night</button>
+    </div>
+
+    <!--Event Listeners-->
+    <div>
+        <h2 id ="new-msg"></h2>
+        <button type="button" id="gm">Good Morning</button>
+        <button type="button" id="ga">Good Afternoon</button>
+        <button type="button" id="ge">Good Evening</button>
+        <button type="button" id="gn">Good Night</button>
+    </div>
+
+    <!-- Image-->
+<div>
+    <img src="../img/lightbulbs.jpg">
+    <button type="button" onclick="changeImage()">Change</button>
+</div>
+
+
+<script src="10_script.js"></script>
+</body>
+</html>
