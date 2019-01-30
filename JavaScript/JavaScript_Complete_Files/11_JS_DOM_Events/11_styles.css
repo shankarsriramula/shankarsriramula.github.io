@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: "Comic Sans MS",sans-serif;
+}
+h2{
+    background-color: lightsalmon;
+    text-align: center;
+    padding: 10px;
+}
+table,th,td{
+    border: 2px solid blueviolet;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+table{
+    width: 100%;
+    box-shadow: 0 0 15px black;
+}
+section{
+    text-align: center;
+    padding: 15px;
+}
+button{
+    padding: 14px 25px;
+    font-size: 20px;
+    color: black;
+    border: none;
+    box-shadow: 0 0 15px black;
+}
+button:hover{
+    opacity: 0.8;
+}

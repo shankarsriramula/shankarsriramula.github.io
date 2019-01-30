@@ -1,0 +1,14 @@
+body{
+    font-family: "Comic Sans MS", sans-serif;
+    margin: 0;
+}
+section{
+    padding: 20px;
+    text-align: center;
+}
+span{
+    color: red;
+}
+input{
+    outline: none;
+}
